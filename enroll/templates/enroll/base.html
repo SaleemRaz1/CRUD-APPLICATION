@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--CRUD--</title>
+    <!-- ********************CSS AND BOOTSTRAP**************************************** -->
+  
+   <!-- <link rel="stylesheet" href="{% static 'enroll/style.css'%}"> -->
+   <link rel="stylesheet" href="{% static 'enroll/css/all.min.css' %}">
+   <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center alert alert-dark bg-dark text-light ">Function Base view Model form CRUD </h1>
+
+    </div>
+
+    
+    
+    {% block content %}
+
+
+    {% endblock content%}
+
+
+
+
+
+
+
+
+
+    <!-- *********************JQUERY FILES************************************************ -->
+
+    <script src="{% static 'enroll/js/Jquery.js'   %}"></script>
+    <script src="{% static 'enroll/js/popper.js'   %}"></script>
+    <script src="{% static 'enroll/js/all.min.js'   %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
